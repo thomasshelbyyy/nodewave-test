@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav className="w-screen">
             <div className={`flex w-full justify-between px-4 py-3 ${scrolling ? "bg-black" : "bg-transparent"} fixed z-50`}>
                 <div>
-                    <Image src={logo} />
+                    <Image src={logo} alt="logo" />
                 </div>
                 <div className="hidden md:flex gap-6 text-lg font-semibold text-white items-center">
                     <Link href="#">Website</Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 </div>
 
                 <button className="md:hidden" onClick={() => setNavbarActive(!navbarActive)}>
-                    {navbarActive ? <Image src={close} /> : <Image src={hamburger} />}
+                    {navbarActive ? <Image src={close} alt="close icon" /> : <Image src={hamburger} alt="hamburger menu icon" />}
                 </button>
             </div>
 

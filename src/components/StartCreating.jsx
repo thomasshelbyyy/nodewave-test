@@ -15,12 +15,12 @@ const StartCreating = () => {
                         <p className="text-xl font-bold py-3">Start from </p>
                         <div className="mx-auto w-9/12 md:w-7/12 text-center relative pb-1">
                             <p className="text-xl line-through text-gray-500">Rp, 1.000.000</p>
-                            <Image src={saleIcon} className="absolute right-0 top-0" />
+                            <Image src={saleIcon} alt="sale icon" className="absolute right-0 top-0" />
                         </div>
                         <p className="text-xl pb-6">Rp, 500.000</p>
                         <Link href="#" className="px-4 py-2 text-xl font-semibold bg-teal-500 rounded-full hover:bg-teal-600 transition duration-300 text-white">Order Now</Link>
                     </div>
-                    <Image src={codeImage} className="h-full w-auto rounded-r-md" />
+                    <Image src={codeImage} alt="code image" className="h-full w-auto rounded-r-md" />
                 </div>
                 <div className="flex h-80 ">
                     <div className="w-80 h-full text-center bg-white text-gray-700 rounded-l-md py-12">
@@ -29,7 +29,7 @@ const StartCreating = () => {
                         <p className="text-xl pb-6">Rp, 999.000</p>
                         <Link href="#" className="px-4 py-2 text-xl font-semibold bg-teal-500 rounded-full hover:bg-teal-600 transition duration-300 text-white">Order Now</Link>
                     </div>
-                    <Image src={phoneImage} className="h-full w-auto rounded-r-md" />
+                    <Image src={phoneImage} alt="phone image" className="h-full w-auto rounded-r-md" />
                 </div>
             </div>
         </div>

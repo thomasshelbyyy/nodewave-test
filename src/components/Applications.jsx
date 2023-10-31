@@ -16,7 +16,7 @@ const Applications = () => {
             <div className="flex flex-wrap justify-center gap-6 py-8">
                 <div className="w-[400px] pb-8">
                     <span className="flex gap-10 text-xl items-center font-semibold">
-                        <Image src={listIcon} />
+                        <Image src={listIcon} alt="list icon" />
                         Online Attendance
                     </span>
                     <p>With the times, your tam may be able to work n the office or outside the office. Get the accuracy of your team'swork hours with your own company's specialonline attendance feature with features such as</p>
@@ -30,7 +30,7 @@ const Applications = () => {
                 </div>
                 <div className="w-[400px] pb-8">
                     <span className="flex gap-10 text-xl items-center font-semibold">
-                        <Image src={basketballIcon} />
+                        <Image src={basketballIcon} alt="basketball icon" />
                         Sport Center
                     </span>
                     <p>Create you sports center field booking application. Suitable for futsal, mini soccer, badmintion, tennis, golf, basketball, to table tennis. Give your customers the freedom to:</p>
@@ -45,7 +45,7 @@ const Applications = () => {
                 </div>
                 <div className="w-[400px] pb-8">
                     <span className="flex gap-10 text-xl items-center font-semibold">
-                        <Image src={bookIcon} />
+                        <Image src={bookIcon} alt="book icon" />
                         Booking
                     </span>
                     <p>Offer you services in your own application to place orders to delivery directly to the cliendt's house. Suitabled for ac service, cleanig, cleaning sevice, CCTV, massage, and eve other digital services/ Features that can be made: </p>
@@ -60,27 +60,27 @@ const Applications = () => {
             </div>
             <div className="flex flex-wrap justify-center gap-6">
                 <div className="flex gap-4 items-center">
-                    <Image src={eCommerceIcon} />
+                    <Image src={eCommerceIcon} alt="e commerce icon" />
                     <p className="font-medium">E-Commerce</p>
                 </div>
                 <div className="flex gap-4 items-center">
-                    <Image src={companyIcon} />
+                    <Image src={companyIcon} alt="company icon" />
                     <p className="font-medium">Company Profile</p>
                 </div>
                 <div className="flex gap-4 items-center">
-                    <Image src={cashierIcon} />
+                    <Image src={cashierIcon} alt="cashier icon" />
                     <p className="font-medium">Cashier</p>
                 </div>
                 <div className="flex gap-4 items-center">
-                    <Image src={chatIcon} />
+                    <Image src={chatIcon} alt="chat icon" />
                     <p className="font-medium">Chat</p>
                 </div>
                 <div className="flex gap-4 items-center">
-                    <Image src={mechanicIcon} />
+                    <Image src={mechanicIcon} alt="mechanic icon" />
                     <p className="font-medium">Workshop</p>
                 </div>
                 <div className="flex gap-4 items-center">
-                    <Image src={constructionIcon} />
+                    <Image src={constructionIcon} alt="construction icon" />
                     <p className="font-medium">Construction</p>
                 </div>
                 <div className="flex items-center">
