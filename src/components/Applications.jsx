@@ -19,7 +19,7 @@ const Applications = () => {
                         <Image src={listIcon} alt="list icon" />
                         Online Attendance
                     </span>
-                    <p>With the times, your tam may be able to work n the office or outside the office. Get the accuracy of your team'swork hours with your own company's specialonline attendance feature with features such as</p>
+                    <p>With the times, your tam may be able to work n the office or outside the office. Get the accuracy of your teams work hours with your own companys specialonline attendance feature with features such as</p>
                     <ul className="list-disc">
                         <li>Clock in and Clock Out attendance</li>
                         <li>Face Photo</li>
@@ -48,7 +48,7 @@ const Applications = () => {
                         <Image src={bookIcon} alt="book icon" />
                         Booking
                     </span>
-                    <p>Offer you services in your own application to place orders to delivery directly to the cliendt's house. Suitabled for ac service, cleanig, cleaning sevice, CCTV, massage, and eve other digital services/ Features that can be made: </p>
+                    <p>Offer you services in your own application to place orders to delivery directly to the clients house. Suitabled for ac service, cleanig, cleaning sevice, CCTV, massage, and eve other digital services/ Features that can be made: </p>
                     <ul className="list-disc">
                         <li>Memilih jenis dan kategori jasa yang dikehendaki</li>
                         <li>Melakukan reservasi online dan pembayaran dengan metode pembayaran digital</li>
